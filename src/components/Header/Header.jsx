@@ -1,13 +1,12 @@
 import { Container } from "../Container/Container";
-import CoffeeIcon from "../../assets/icons/coffee_maker.svg";
+import LogoIcon from "../../assets/icons/logo.svg";
 import CartIcon from "../../assets/icons/shopping_cart.svg";
 export const Header = () => (
   <header>
     <Container>
       <div className="header__container">
         <a href="/" className="header__logo">
-          <img src={CoffeeIcon} alt="Coffee" className="header__logo-icon" />
-          Зернятко
+          <img src={LogoIcon} alt="Coffee" className="header__logo-icon" />
         </a>
         <nav className="header__nav">
           <ul className="header__nav-list">

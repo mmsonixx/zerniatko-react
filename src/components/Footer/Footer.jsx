@@ -1,15 +1,13 @@
 import { Container } from "../Container/Container";
 import { FaInstagram, FaYoutube, FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import CoffeeIcon from "../../assets/icons/coffee_maker.svg";
+import LogoIcon from "../../assets/icons/logo.svg";
 export const Footer = () => (
   <footer>
     <Container>
       <div className="footer__container">
         <a href="/" className="footer__logo">
-          {" "}
-          <img src={CoffeeIcon} alt="Coffee" className="footer__logo-icon" />
-          Зернятко
+          <img src={LogoIcon} alt="Coffee" className="footer__logo-icon" />
         </a>
         <div className="footer__navigation">
           <h3 className="footer__heading">Меню</h3>
