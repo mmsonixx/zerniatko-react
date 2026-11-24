@@ -1,0 +1,73 @@
+import { Container } from "../Container/Container";
+import { FaInstagram, FaYoutube, FaFacebook } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import CoffeeIcon from "../../assets/icons/coffee_maker.svg";
+export const Footer = () => (
+  <footer>
+    <Container>
+      <div className="footer__container">
+        <a href="/" className="footer__logo">
+          {" "}
+          <img src={CoffeeIcon} alt="Coffee" className="footer__logo-icon" />
+          Зернятко
+        </a>
+        <div className="footer__navigation">
+          <h3 className="footer__heading">Меню</h3>
+
+          <ul className="footer__list">
+            <li>
+              <a href="/">Головна</a>
+            </li>
+            <li>
+              <a href="#products">Товари</a>
+            </li>
+            <li>
+              <a href="#categories">Категорії</a>
+            </li>
+          </ul>
+        </div>
+
+        <div className="footer__subscribe">
+          <h3 className="footer__heading">Підписатися</h3>
+
+          <p className="footer__description">
+            Приєднуйтесь до нашої розсилки, щоб бути в курсі новинок та акцій.
+          </p>
+
+          <form className="footer__form">
+            <input
+              className="footer__input"
+              type="email"
+              placeholder="Введіть ваш email"
+              aria-label="Ваш email"
+            />
+
+            <button className="footer__button" type="submit">
+              Підписатися
+            </button>
+          </form>
+        </div>
+      </div>
+      <div className="footer__bottom">
+        <p className="footer__copyright">
+          © 2025 Зернятко. Всі права захищені.
+        </p>
+
+        <div className="footer__socials">
+          <a href="#">
+            <FaFacebook />
+          </a>
+          <a href="#">
+            <FaInstagram />
+          </a>
+          <a href="#">
+            <FaXTwitter />
+          </a>
+          <a href="#">
+            <FaYoutube />
+          </a>
+        </div>
+      </div>
+    </Container>
+  </footer>
+);
