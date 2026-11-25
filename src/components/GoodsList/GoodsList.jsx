@@ -1,0 +1,1 @@
+export const GoodsList = ()  => (<ul></ul>);

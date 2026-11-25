@@ -7,17 +7,17 @@ export const Benefits = () => (<section className="benefits">
 <ul className="benefits__list">
     <li className="benefits__item">
         <FiSun/>
-        <h3 className="benefits__title">Смак і якість</h3>
+        <h3 className="benefits__item-title">Смак і якість</h3>
         <p className="benefits__info">Лише відібрані кавові зерна та товари від перевірених виробників.</p>
     </li>
     <li className="benefits__item">
     <MdOutlineCoffee />
-        <h3 className="benefits__title">Усе для кавового ритуалу</h3>
+        <h3 className="benefits__item-title">Усе для кавового ритуалу</h3>
         <p className="benefits__info">Від турки до кавомолки — ми зібрали повний набір для ідеальної чашки.</p>
     </li>
     <li className="benefits__item">
         <MdOutlineCalendarToday />
-        <h3 className="benefits__title">Натхнення щодня</h3>
+        <h3 className="benefits__item-title">Натхнення щодня</h3>
         <p className="benefits__info">Кава, яка підкреслить твій настрій та стане головною частиною ранкової звички.</p>
     </li>
 </ul>

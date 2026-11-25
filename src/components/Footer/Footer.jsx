@@ -52,16 +52,16 @@ export const Footer = () => (
         </p>
 
         <div className="footer__socials">
-          <a href="#">
+          <a href="https://www.facebook.com/" target="_blank">
             <FaFacebook />
           </a>
-          <a href="#">
+          <a  href="https://www.instagram.com/" target="_blank" >
             <FaInstagram />
           </a>
-          <a href="#">
+          <a href="https://x.com/" target="_blank">
             <FaXTwitter />
           </a>
-          <a href="#">
+          <a href="https://www.youtube.com/" target="_blank">
             <FaYoutube />
           </a>
         </div>
