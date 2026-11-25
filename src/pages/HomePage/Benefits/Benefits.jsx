@@ -1,4 +1,4 @@
-import { Container } from "../../components/Container/Container";
+import { Container } from "../../../components/Container/Container";
 import { FiSun } from "react-icons/fi";
 import { MdOutlineCoffee, MdOutlineCalendarToday  } from "react-icons/md";
 export const Benefits = () => (<section className="benefits">

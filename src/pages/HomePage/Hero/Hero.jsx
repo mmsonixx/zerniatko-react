@@ -1,5 +1,5 @@
-import { Container } from "../../components/Container/Container";
-import HeroImage from "../../assets/img/hero-coffee.webp";
+import { Container } from "../../../components/Container/Container";
+import HeroImage from "../../../assets/img/hero-coffee.webp";
 export const Hero = () => (
   <section className="hero">
     <Container>
