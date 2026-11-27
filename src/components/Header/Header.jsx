@@ -1,6 +1,7 @@
 import { Container } from "../Container/Container";
 import LogoIcon from "../../assets/icons/logo.svg";
 import CartIcon from "../../assets/icons/shopping_cart.svg";
+import { RiShoppingCartLine } from "react-icons/ri";
 export const Header = () => (
   <header>
     <Container>
@@ -39,6 +40,7 @@ export const Header = () => (
           <a href="/cart" className="header__cart">
             <img src={CartIcon} alt="Кошик" />
           </a>
+          <button><RiShoppingCartLine/></button>
         </div>
       </div>
     </Container>

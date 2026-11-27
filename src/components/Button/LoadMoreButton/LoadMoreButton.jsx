@@ -1,0 +1,1 @@
+export const LoadMoreButton = () => (<><button className="loadMoreButton">Показати більше</button></>);

@@ -1,0 +1,1 @@
+export const BasketModal = () => (<div className="basketModal"></div>);
